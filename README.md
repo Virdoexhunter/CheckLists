@@ -33,4 +33,8 @@ Vulnerability Checklists
 12-SSRF
 13-CVES
 14-Other Service exploits
+15-Host Header Injection
+16-Open Redirects
+17-Web Cache Poisoning
+18-CSRF token not expired
 
