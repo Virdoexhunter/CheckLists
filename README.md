@@ -37,4 +37,7 @@ Vulnerability Checklists
 16-Open Redirects
 17-Web Cache Poisoning
 18-CSRF token not expired
+19-Rate Limits(bypass)
+20-2FA bypass
+21-Concurrent Issues
 
