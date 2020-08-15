@@ -41,3 +41,63 @@ Vulnerability Checklists
 20-2FA bypass
 21-Concurrent Issues
 
+Github Dorks To Look For:
+1- filename:.bash_history DOMAIN-NAME
+2- SECRET_KEY_BASE=
+3- "stie.com" vim_settings.xml
+4-  Wordpress_DB_PASSWORD
+5- filename: wp-config.php
+
+List of github dorks
+api_key
+“api keys”
+authorization_bearer:
+oauth
+auth
+authentication
+client_secret
+api_token:
+“api token”
+client_id
+password
+user_password
+user_pass
+passcode
+client_secret
+secret
+password hash
+OTP
+user auth
+
+XSS_JSON :
+1- "}]}';alert('oBonito')</script>
+
+CSRF BYPASS:
+
+1-Change POST to GET
+2-Remove Total Token Parameter
+3-Blank
+4-Replace random value with same length
+5-change Content-Type:form/multipart
+
+
+Google Dorks:
+1-inurl:site.com intitle:"index of"
+2-inurl:site.com intitle:"index of /" "*key.pem"
+3-inurl:site.com ext:sql|ext:bak|ext:old|ext:env|ext:xls|ext:xml|ext:json|ext:csv|ext:yml
+4-inurl:site.com "MYSQL_ROOT_PASSWORD"
+
+---------------------------------------------------------------------BEST TWEETS---------------------------------------------------------------------------------------
+
+JS FILES LOOKUP:
+https://twitter.com/Haoneses/status/1291387580299321358/photo/1
+
+Broken Link Hijacking:
+https://twitter.com/micha3lb3n/status/1289939398797037568/photo/1
+
+ADMIN PORTAL BYPASS CHECK:
+https://twitter.com/SalahHasoneh1/status/1287825026134269958/photo/1
+
+ACCOUNT TAKEOVER:
+https://twitter.com/Muhe76355002/status/1287250650028482562/photo/1
+
